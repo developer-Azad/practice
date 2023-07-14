@@ -1,0 +1,28 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+html,
+body {
+  max-width: 100vw;
+  overflow-x: hidden;
+  background-color: #1e2733;
+}
+
+::selection {
+  color: #19224c;
+  background-color: #fff;
+}
+
+.css-hunt27 {
+  font-weight: 400 !important;
+  font-size: 12px !important;
+}
+
+/* For styling the width of menu */
+.css-r6z5ec {
+  width: inherit !important;
+  max-width: inherit !important;
+}

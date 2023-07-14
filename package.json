@@ -1,0 +1,53 @@
+{
+  "name": "buxx_frontend",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "tsc": "tsc",
+    "gen:theme-typings": "chakra-cli tokens ./styles/theme/index.ts",
+    "theme": "chakra-cli tokens ./styles/theme/index.ts",
+    "theme:watch": "chakra-cli tokens ./styles/theme/index.ts --watch",
+    "postinstall": "pnpm run gen:theme-typings"
+  },
+  "dependencies": {
+    "@babel/core": "^7.21.8",
+    "@chakra-ui/anatomy": "^2.1.1",
+    "@chakra-ui/icons": "^2.0.19",
+    "@chakra-ui/next-js": "^2.1.3",
+    "@chakra-ui/react": "^2.6.1",
+    "@chakra-ui/styled-system": "^2.9.0",
+    "@chakra-ui/system": "^2.5.7",
+    "@emotion/react": "^11.11.0",
+    "@emotion/styled": "^11.11.0",
+    "@hookform/resolvers": "^3.1.0",
+    "@react-icons/all-files": "^4.1.0",
+    "@types/chroma-js": "^2.4.0",
+    "@types/node": "18.16.3",
+    "@types/react": "18.2.0",
+    "@types/react-dom": "18.2.1",
+    "chart.js": "^4.3.0",
+    "chroma-js": "^2.4.2",
+    "cookies-next": "^2.1.1",
+    "eslint": "8.39.0",
+    "eslint-config-next": "^13.4.3",
+    "framer-motion": "^9.1.7",
+    "nanoid": "^4.0.2",
+    "next": "^13.4.4",
+    "react": "^18.2.0",
+    "react-chartjs-2": "^5.2.0",
+    "react-dom": "^18.2.0",
+    "react-hook-form": "^7.43.9",
+    "react-icons": "^4.8.0",
+    "react-qr-code": "^2.0.11",
+    "sharp": "^0.32.1",
+    "typescript": "5.0.4",
+    "zustand": "^4.3.8"
+  },
+  "devDependencies": {
+    "@chakra-ui/cli": "^2.4.1"
+  }
+}
